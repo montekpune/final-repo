@@ -60,4 +60,11 @@
 
 
 </body>
-</html>
+</html
+<?php
+    include('dept1.php');
+ $sql_query="SELECT * FROM deptmnt";
+ $result_set=mysql_query($sql_query);
+ while($row=mysql_fetch_row($result_set))
+ {
+
